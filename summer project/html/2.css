@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pic {
+    display: flex;
+}
+
+#pic img {
+    width: 250px;
+    height: 300px;
+    border: 12px solid rgb(10, 10, 10);
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    /* changes the postion of nav bar items*/
+    align-items: center;
+    background-color:
+        /*rgb(9, 9, 41);*/
+        rgba(0, 0, 0, 0.9);
+
+
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 10px;
+}
+
+.navbar ul li {
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: beige;
+    padding: 10px 50px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+    color:
+
+        pink;
+}
+ #home {
+     display: flex;
+     flex-direction: column;
+     background-color: rgba(141, 24, 24, 0.5);
+     height: 2000px;
+     justify-content: left;
+     align-items: left;
+     color: beige;
+ }
+
+ #home::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0;
+
+     background-image: url('C: \Users\Anjali Raj\Desktop\summer project\images\image1 (3).jpeg');
+
+     height: 900px;
+     width: 100%;
+     opacity: .8;
+     z-index: -1;
+ }
